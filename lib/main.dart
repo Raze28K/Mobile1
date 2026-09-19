@@ -399,7 +399,7 @@ class _FortuneWheelPageState extends State<FortuneWheelPage> with SingleTickerPr
               children: [
                 // 1. Колесо сдвинуто на 200 пикселей вниз
                 Transform.translate(
-                  offset: const Offset(0, 190),
+                  offset: const Offset(3, -70),
                   child: Stack(
                     alignment: Alignment.center,
                     children: [
@@ -440,7 +440,7 @@ class _FortuneWheelPageState extends State<FortuneWheelPage> with SingleTickerPr
 
                 // 2. ВСЯ ОСТАЛЬНАЯ ЧАСТЬ (Очки, табло, кнопка) теперь ТОЖЕ сдвинута на 200 пикселей вниз
                 Transform.translate(
-                  offset: const Offset(0,130),
+                  offset: const Offset(0,0),
                   child: Column(
                     children: [
 
